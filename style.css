@@ -74,7 +74,7 @@
             color: #333;
         }
         
-        /* Завдання 2: Анімація */
+
         .animation-container {
             display: flex;
             gap: 20px;
@@ -94,7 +94,7 @@
         #box3 { background: #ffe66d; }
         #box4 { background: #95e1d3; }
         
-        /* Завдання 3: Гра */
+
         .game-area {
             position: relative;
             height: 300px;
@@ -133,7 +133,7 @@
             border-radius: 10px;
         }
         
-        /* Завдання 4: Контроль часу */
+
         input[type="number"] {
             padding: 10px;
             border: 2px solid #667eea;
