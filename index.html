@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="container">
+        <h1>🕐 Завдання з таймерами JavaScript</h1>
+        
+        <!-- Завдання 1: Таймер інтервалу -->
+        <div class="task">
+            <h2>Завдання 1: Таймер інтервалу</h2>
+            <p>Виводить повідомлення кожну секунду. Після 5 повідомлень автоматично зупиняється.</p>
+            <button onclick="startTask1()">Запустити таймер</button>
+            <button onclick="stopTask1()">Зупинити</button>
+            <button onclick="resetTask1()">Скинути</button>
+            <div class="output" id="output1"></div>
+        </div>
+        
+        <!-- Завдання 2: Анімація елементів -->
+        <div class="task">
+            <h2>Завдання 2: Анімація елементів</h2>
+            <p>Елементи змінюють розмір, позицію та стилі кожні 500 мс.</p>
+            <button onclick="startTask2()">Запустити анімацію</button>
+            <button onclick="stopTask2()">Зупинити анімацію</button>
+            <div class="animation-container">
+                <div class="animated-box" id="box1"></div>
+                <div class="animated-box" id="box2"></div>
+                <div class="animated-box" id="box3"></div>
+                <div class="animated-box" id="box4"></div>
+            </div>
+        </div>
+        
+        <!-- Завдання 3: Інтерактивна гра -->
+        <div class="task">
+            <h2>Завдання 3: Інтерактивна гра "Лови мішень"</h2>
+            <p>Натискайте на червоні кола протягом 15 секунд!</p>
+            <button onclick="startGame()">Почати гру</button>
+            <div class="score-board">
+                <div class="score-item">Очки: <span id="score">0</span></div>
+                <div class="score-item">Час: <span id="timeLeft">15</span>с</div>
+            </div>
+            <div class="game-area" id="gameArea"></div>
+        </div>
+        
+        <!-- Завдання 4: Контроль часу -->
+        <div class="task">
+            <h2>Завдання 4: Контроль часу</h2>
+            <p>Встановіть час у секундах для таймера:</p>
+            <input type="number" id="timeInput" placeholder="Секунди" min="1" value="5">
+            <button onclick="startTask4()">Запустити таймер</button>
+            <button onclick="cancelTask4()">Скасувати</button>
+            <div class="timer-display" id="timerDisplay"></div>
+            <div class="output" id="output4"></div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
