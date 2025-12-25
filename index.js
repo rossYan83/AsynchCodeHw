@@ -47,7 +47,6 @@ let interval1 = null;
             document.getElementById('output1').innerHTML = '';
         }
         
-        // ЗАВДАННЯ 2: Анімація елементів
         let interval2 = null;
         let animationStep = 0;
         
@@ -101,8 +100,7 @@ let interval1 = null;
                 });
             }
         }
-        
-        // ЗАВДАННЯ 3: Інтерактивна гра
+    
         let gameInterval = null;
         let targetInterval = null;
         let gameTime = 15;
@@ -172,7 +170,7 @@ let interval1 = null;
             `;
         }
         
-        // ЗАВДАННЯ 4: Контроль часу
+
         let timeout4 = null;
         let countdown4 = null;
         let remainingTime = 0;
